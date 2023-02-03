@@ -26,10 +26,12 @@ const Home: React.FC<HomeProps> = () => {
         <div className="cardDiv grid">
           <div className="OriginInput">
             <label htmlFor="city">Origen</label>
-            <div className="input flex">
-              <select placeholder="Ciudad de origen" />
+             <select className="input grid">
+              <option value="rojo">Arequipa</option>
+              <option value="azul">lima</option>
+            
               <GrLocation className="icon" />
-            </div>
+            </select>
           </div>
 
           <div className="destinationInput">
