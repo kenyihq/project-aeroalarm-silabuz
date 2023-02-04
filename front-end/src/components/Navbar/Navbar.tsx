@@ -3,6 +3,8 @@ import "./navbar.css";
 
 import logo from "../../Assets/logotipo.png";
 
+
+
 interface NavbarProps {}
 
 const Navbar: React.FC<NavbarProps> = () => {
