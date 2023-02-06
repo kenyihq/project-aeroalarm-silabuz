@@ -8,6 +8,7 @@ import {FiFacebook} from "react-icons/fi"
 import {AiOutlineInstagram} from "react-icons/ai"
 import {BsListTask} from "react-icons/bs"
 import {TbApps} from "react-icons/tb"
+import { Link } from "react-router-dom";
 
 
 
@@ -71,10 +72,13 @@ const Home = () => {
                         </div>
                     </div>
 
+                    
+
                     <div className="searchOptions flex">
                         <HiFilter className="icon"/>
                         <span> Filtros </span>
                     </div>
+                    
 
                     
                     

@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./navbar.css";
 
 import logo from "../../Assets/logotipo.png";
+import { Link } from "react-router-dom";
 
 
 
@@ -31,6 +32,7 @@ const Navbar: React.FC<NavbarProps> = () => {
               <a href="#" className="navLink">
                 Home
               </a>
+              
             </li>
 
             <li className="navItem">
@@ -39,14 +41,17 @@ const Navbar: React.FC<NavbarProps> = () => {
               </a>
             </li>
 
+            
+            
             <li className="navItem">
               <a href="#" className="navLink">
                 Sobre Nosotros
               </a>
             </li>
+          
 
             <li className="navItem">
-              <a href="#" className="navLink">
+              <a href= "Login" className="navLink" >
                 Ofertas
               </a>
             </li>
@@ -56,9 +61,10 @@ const Navbar: React.FC<NavbarProps> = () => {
                 Contactanos
               </a>
             </li>
+            
 
             <button className="btn">
-              <a href="#">Iniciar Sesión</a>
+              <a href="/login">Iniciar Sesión</a>
             </button>
           </ul>
         </div>
