@@ -51,7 +51,7 @@ const Navbar: React.FC<NavbarProps> = () => {
           
 
             <li className="navItem">
-              <a href= "Login" className="navLink" >
+              <a href= "#" className="navLink" >
                 Ofertas
               </a>
             </li>
@@ -64,8 +64,11 @@ const Navbar: React.FC<NavbarProps> = () => {
             
 
             <button className="btn">
-              <a href="/login">Iniciar Sesión</a>
+              <Link to="/login">
+                   <h1>Login</h1>
+              </Link>
             </button>
+            
           </ul>
         </div>
       </header>
