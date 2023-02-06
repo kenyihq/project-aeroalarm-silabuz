@@ -15,57 +15,57 @@ const Navbar: React.FC<NavbarProps> = () => {
     <section className="navBarSection">
       <header className="header flex">
         <div className="logoDiv">
-          <a href="#" className="logo grid">
-            <h1>
-              <img src={logo} /> Aeroalarm
-            </h1>
-          </a>
+
+          <Link to="/" className="logo grid">
+          
+            <h3>
+              <img src={logo} /> AeroAlarm.
+            </h3>
+          
+          </Link>
+
         </div>
 
         <div className={active}>
           <ul className="navList flex">
             <li className="navItem">
-              <a href="#" className="navLink" />
+              <a  className="navLink" />
             </li>
 
             <li className="navItem">
-              <a href="#" className="navLink">
+              <Link to="/">
+                <a  className="navLink">
                 Home
-              </a>
-              
+                </a>
+              </Link>
             </li>
 
-            <li className="navItem">
-              <a href="#" className="navLink">
-                Paquetes
-              </a>
-            </li>
-
-            
-            
-            <li className="navItem">
-              <a href="#" className="navLink">
-                Sobre Nosotros
-              </a>
-            </li>
-          
 
             <li className="navItem">
-              <a href= "Login" className="navLink" >
+              <a  className="navLink" >
                 Ofertas
               </a>
             </li>
 
             <li className="navItem">
-              <a href="#" className="navLink">
+              <a className="navLink">
                 Contactanos
+              </a>
+            </li>
+
+            <li className="navItem">
+              <a  className="navLink">
+                Sobre Nosotros
               </a>
             </li>
             
 
             <button className="btn">
-              <a href="/login">Iniciar Sesión</a>
+              <Link to="/login">
+                <a>Iniciar Sesión</a>
+              </Link>
             </button>
+
           </ul>
         </div>
       </header>

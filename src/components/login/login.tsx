@@ -10,7 +10,7 @@ const initialState = {
   confirmPassword: "",
 };
 
-const Auth = () => {
+const Login = () => {
   const [formValue, setFormValue] = useState(initialState);
 
   const { firstName, lastName, email, password, confirmPassword } = formValue;
@@ -146,4 +146,4 @@ const Auth = () => {
   );
 };
 
-export default Auth
+export default Login
