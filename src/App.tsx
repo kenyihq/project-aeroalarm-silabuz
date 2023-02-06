@@ -9,7 +9,7 @@ import Login from "./components/login/login";
 const App = () => {
     return (
         <>
-        <Login/> 
+        <Navbar/>
         {/*<Main/>
         <Footer/>*/}
         </>
