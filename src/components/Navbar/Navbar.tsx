@@ -15,6 +15,7 @@ const Navbar: React.FC<NavbarProps> = () => {
     <section className="navBarSection">
       <header className="header flex">
         <div className="logoDiv">
+
           <Link to="/" className="logo grid">
           
             <h3>
@@ -22,6 +23,7 @@ const Navbar: React.FC<NavbarProps> = () => {
             </h3>
           
           </Link>
+
         </div>
 
         <div className={active}>
