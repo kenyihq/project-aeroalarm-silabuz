@@ -1,14 +1,15 @@
-import { Routes, Route } from "react-router-dom";
+import React from 'react';
+import { Routes, Route } from 'react-router-dom';
+import Login from './Login/Login';
+import Home from './Home/Home';
 
-import Login from "../components/Login/Login"
-
-
-export default function Routing() {
+const Routing: React.FC<{}> = () => {
   return (
     <Routes>
-      
       <Route path="/login" element={<Login />} />
-      
+      <Route path='/' element={<Home/>} />
     </Routes>
   );
-}
+};
+
+export default Routing;

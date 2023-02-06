@@ -25,18 +25,21 @@ const Navbar: React.FC<NavbarProps> = () => {
         <div className={active}>
           <ul className="navList flex">
             <li className="navItem">
-              <a href="#" className="navLink" />
+              <a  className="navLink" />
             </li>
 
             <li className="navItem">
-              <a href="#" className="navLink">
+              
+              <Link to="/">
+                <a  className="navLink">
                 Home
-              </a>
+                </a>
+              </Link>
               
             </li>
 
             <li className="navItem">
-              <a href="#" className="navLink">
+              <a  className="navLink">
                 Paquetes
               </a>
             </li>
@@ -44,20 +47,20 @@ const Navbar: React.FC<NavbarProps> = () => {
             
             
             <li className="navItem">
-              <a href="#" className="navLink">
+              <a  className="navLink">
                 Sobre Nosotros
               </a>
             </li>
           
 
             <li className="navItem">
-              <a href= "#" className="navLink" >
+              <a  className="navLink" >
                 Ofertas
               </a>
             </li>
 
             <li className="navItem">
-              <a href="#" className="navLink">
+              <a className="navLink">
                 Contactanos
               </a>
             </li>
@@ -65,10 +68,10 @@ const Navbar: React.FC<NavbarProps> = () => {
 
             <button className="btn">
               <Link to="/login">
-                   <h1>Login</h1>
+                <a>Iniciar Sesión</a>
               </Link>
             </button>
-            
+
           </ul>
         </div>
       </header>
