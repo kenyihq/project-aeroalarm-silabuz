@@ -15,9 +15,7 @@ import { Link } from "react-router-dom";
 const Home = () => {
     return (
         <section className="home">
-            <div className="overlay"></div>
-         <video src={videoUrl} muted autoPlay loop></video>
-
+         <video className="videoBg" src={videoUrl} muted autoPlay loop></video>
             <div className="homeContent container">
                 <div className="textDiv">
 
@@ -37,8 +35,8 @@ const Home = () => {
                         <label htmlFor="city">
                             Origen
                         </label>
-                        <div className="input flex" placeholder="ciudad de orig">
-                        <select className="input flex" placeholder="Ciudad de origen"/>
+                        <div className="input flex">
+                        <input type="text" placeholder="Ciudad de destino"/>
                             <GrLocation className="icon"/>
 
                         </div>
@@ -72,16 +70,11 @@ const Home = () => {
                         </div>
                     </div>
 
-                    
-
                     <div className="searchOptions flex">
                         <HiFilter className="icon"/>
                         <span> Filtros </span>
                     </div>
-                    
-
-                    
-                    
+                     
                 </div>
 
                 <div className="homeFooterIcon flex">
@@ -99,7 +92,6 @@ const Home = () => {
 
                 </div>
             </div>
-
         </section>
     )
 }

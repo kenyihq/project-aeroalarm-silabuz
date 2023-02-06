@@ -17,7 +17,7 @@ const Navbar: React.FC<NavbarProps> = () => {
         <div className="logoDiv">
           <a href="#" className="logo grid">
             <h1>
-              <img src={logo} /> Aeroalarm.
+              <img src={logo} /> Aeroalarm
             </h1>
           </a>
         </div>
