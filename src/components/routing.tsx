@@ -3,13 +3,13 @@ import { Routes, Route } from 'react-router-dom';
 import Login from './Login/Login';
 import Home from './Home/Home';
 
-const Routing: React.FC<{}> = () => {
+function Routing() {
   return (
     <Routes>
+      <Route path="/" element={<Home />} />
       <Route path="/login" element={<Login />} />
-      <Route path='/' element={<Home/>} />
     </Routes>
   );
-};
+}
 
 export default Routing;

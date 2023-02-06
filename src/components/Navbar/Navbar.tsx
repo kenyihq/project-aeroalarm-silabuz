@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./navbar.css";
 
-import logo from "../../Assets/logotipo.png";
+import logo from "../../Assets/icon/logo.png";
 import { Link } from "react-router-dom";
 
 
@@ -15,11 +15,13 @@ const Navbar: React.FC<NavbarProps> = () => {
     <section className="navBarSection">
       <header className="header flex">
         <div className="logoDiv">
-          <a href="#" className="logo grid">
-            <h1>
-              <img src={logo} /> Aeroalarm.
-            </h1>
-          </a>
+          <Link to="/" className="logo grid">
+          
+            <h3>
+              <img src={logo} /> AeroAlarm.
+            </h3>
+          
+          </Link>
         </div>
 
         <div className={active}>
@@ -29,29 +31,13 @@ const Navbar: React.FC<NavbarProps> = () => {
             </li>
 
             <li className="navItem">
-              
               <Link to="/">
                 <a  className="navLink">
                 Home
                 </a>
               </Link>
-              
             </li>
 
-            <li className="navItem">
-              <a  className="navLink">
-                Paquetes
-              </a>
-            </li>
-
-            
-            
-            <li className="navItem">
-              <a  className="navLink">
-                Sobre Nosotros
-              </a>
-            </li>
-          
 
             <li className="navItem">
               <a  className="navLink" >
@@ -62,6 +48,12 @@ const Navbar: React.FC<NavbarProps> = () => {
             <li className="navItem">
               <a className="navLink">
                 Contactanos
+              </a>
+            </li>
+
+            <li className="navItem">
+              <a  className="navLink">
+                Sobre Nosotros
               </a>
             </li>
             
