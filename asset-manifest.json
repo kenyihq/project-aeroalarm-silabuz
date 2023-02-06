@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/project-aeroalarm-silabuz/static/css/main.0da0e64c.css",
-    "main.js": "/project-aeroalarm-silabuz/static/js/main.42d1b1ca.js",
+    "main.js": "/project-aeroalarm-silabuz/static/js/main.ad920584.js",
     "static/media/video.mp4": "/project-aeroalarm-silabuz/static/media/video.f74267eb9a6f70c4448e.mp4",
     "static/media/logo.png": "/project-aeroalarm-silabuz/static/media/logo.06e89c1bf72de2cdfa6b.png",
     "index.html": "/project-aeroalarm-silabuz/index.html",
     "main.0da0e64c.css.map": "/project-aeroalarm-silabuz/static/css/main.0da0e64c.css.map",
-    "main.42d1b1ca.js.map": "/project-aeroalarm-silabuz/static/js/main.42d1b1ca.js.map"
+    "main.ad920584.js.map": "/project-aeroalarm-silabuz/static/js/main.ad920584.js.map"
   },
   "entrypoints": [
     "static/css/main.0da0e64c.css",
-    "static/js/main.42d1b1ca.js"
+    "static/js/main.ad920584.js"
   ]
 }
