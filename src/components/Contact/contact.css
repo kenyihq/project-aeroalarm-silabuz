@@ -1,0 +1,64 @@
+.card5 {
+  width: 260px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 9px;
+  box-shadow: 50px 60px 100px rgba(32, 245, 67, 0.1);
+  position: absolute;
+  top: 97%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+}
+
+.chat-header {
+  background: var(--gradientColor);
+  color: #fff;
+  padding: 10px;
+  font-size: 18px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-radius: 0.5rem;
+}
+
+.chat-window {
+  height: 220px;
+  overflow-y: scroll;
+}
+
+.message-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.chat-input {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-top: 1px solid #ccc;
+}
+
+.message-input {
+  flex: 1;
+  border: none;
+  outline: none;
+  padding: 5px;
+  font-size: 14px;
+}
+
+.send-button {
+  border: none;
+  outline: none;
+  background: var(--gradientColor);
+  color: #fff;
+  font-size: 14px;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 0.8rem;
+}
+
+.send-button:hover {
+  background-color: var(--gradientColor);
+  color: rgb(0, 0, 0);
+  box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
+}/*# sourceMappingURL=contact.css.map */

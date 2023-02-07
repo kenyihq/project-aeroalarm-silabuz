@@ -44,7 +44,6 @@
 }
 .footer .secContent {
   width: 100%;
-  height: -webkit-max-content;
   height: -moz-max-content;
   height: max-content;
   padding: 2rem initial;
@@ -85,9 +84,6 @@
   color: var(--whiteColor);
 }
 .footer .inputDiv input::-moz-placeholder {
-  color: var(--whiteColor);
-}
-.footer .inputDiv input:-ms-input-placeholder {
   color: var(--whiteColor);
 }
 .footer .inputDiv input::placeholder {
