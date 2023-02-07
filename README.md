@@ -24,10 +24,6 @@
 
 ## API 👾🎮♟🎲📲
 
-## Endpoint description:
-
-### Create user
-
 #### ⚡ Link de backend
 https://github.com/bryamvega7/backend-aeroalarm-silabuz
 
