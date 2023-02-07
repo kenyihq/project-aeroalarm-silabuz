@@ -2,10 +2,10 @@
 
 #### 🏆 PARTICIPANTS
 
-  - Vanesa Huallpa 😃👋 
-  - Bryam Vega   😃👋 
-  - Fernando Leon 😃👋 
-  - Stefani Gonzales 😃👋 
+  - Vanesa Huallpa 👋 
+  - Bryam Vega   👋 
+  - Fernando Leon 👋 
+  - Stefani Gonzales 👋 
   
 ## STAR PROJECT
 ### 🧑‍💻 Requirements:
