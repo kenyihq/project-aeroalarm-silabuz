@@ -6,6 +6,7 @@ import {GrLocation} from "react-icons/gr"
 import {HiFilter} from "react-icons/hi"
 import {FiFacebook} from "react-icons/fi"
 import {AiOutlineInstagram} from "react-icons/ai"
+import {BsFillPeopleFill} from "react-icons/bs"
 import {BsListTask} from "react-icons/bs"
 import {TbApps} from "react-icons/tb"
 import { Link } from "react-router-dom";
@@ -15,8 +16,10 @@ import { Link } from "react-router-dom";
 const Home = () => {
     return (
         <section className="home">
+    
          <video className="videoBg" src={videoUrl} muted autoPlay loop></video>
             <div className="homeContent container">
+            
                 <div className="textDiv">
 
                     <span className="smallText">
@@ -61,20 +64,29 @@ const Home = () => {
                         </div>
                     </div>
 
-                     <div className="dateInputV">
-                        <label htmlFor="date">
-                            Fecha de Vuelta
+                    <div className="">
+                        <label >
+                            Numero de pasajeros
                         </label>
                         <div className="input flex">
-                            <input type="date"/>
+                            <input type="Number" placeholder="ingrese numeor de pasajeros"/>
+                            <BsFillPeopleFill className="icon"/>
                         </div>
                     </div>
 
-                    <div className="searchOptions flex">
-                        <HiFilter className="icon"/>
-                        <span> Filtros </span>
-                    </div>
                      
+
+                    
+                        
+                    <div className="searchOptions flex">
+                    <Link to="./filtrado">
+                        <HiFilter className="icon"/>
+                        <span> Filtrar</span>
+                    </Link>
+                    </div>
+                    
+                    
+                    
                 </div>
 
                 <div className="homeFooterIcon flex">

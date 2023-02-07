@@ -19,7 +19,7 @@ const Navbar: React.FC<NavbarProps> = () => {
           <Link to="/" className="logo grid">
           
             <h3>
-              <img src={logo} /> AeroAlarm.
+              <img src={logo} style={{ width: '30px', }} /> AeroAlarm.
             </h3>
           
           </Link>
@@ -40,18 +40,22 @@ const Navbar: React.FC<NavbarProps> = () => {
               </Link>
             </li>
 
+            <script src="//code.tidio.co/ribx428idabmjijclyinvqsqztamwkls.js" async></script>
+
 
             <li className="navItem">
-              <a  className="navLink" >
-                Ofertas
-              </a>
-            </li>
+              <Link to="./promo" >
+                <a className="navLink">Ofertas</a>
+              </Link>
+              </li>
 
-            <li className="navItem">
-              <a className="navLink">
-                Contactanos
-              </a>
-            </li>
+              <li className="navItem">
+                <Link to="/footer">
+                  <a  className="navLink">
+                    Contactanos
+                  </a>
+                </Link>
+              </li>
 
             <li className="navItem">
               <a  className="navLink">
