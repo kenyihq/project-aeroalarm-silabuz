@@ -2,11 +2,11 @@
 
 #### 🏆 PARTICIPANTS
 
-  - Vanesa Huallpa
-  - Bryam Vega
-  - Fernando 
-  - Stefany
-
+  - Vanesa Huallpa 😃👋 
+  - Bryam Vega   😃👋 
+  - Fernando Leon 😃👋 
+  - Stefani Gonzales 😃👋 
+  
 ## STAR PROJECT
 ### 🧑‍💻 Requirements:
 
@@ -27,3 +27,9 @@
 ## Endpoint description:
 
 ### Create user
+
+⚡ Link de backend
+https://github.com/bryamvega7/backend-aeroalarm-silabuz
+
+⚡ Link de deploy
+https://project-aeroalarm-silabuz.vercel.app/
