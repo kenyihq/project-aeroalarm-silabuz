@@ -32,4 +32,4 @@
 https://github.com/bryamvega7/backend-aeroalarm-silabuz
 
 #### ⚡ Link de deploy
-https://project-aeroalarm-silabuz.vercel.app/
+https://project-aeroalarm-silabuz-2s6m.vercel.app/)
