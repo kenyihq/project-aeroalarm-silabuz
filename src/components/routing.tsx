@@ -4,7 +4,7 @@ import Login from './Login/Login';
 import Home from './Home/Home';
 import Promo from './Promo/Promo';
 import Filtrado from './Filtrado/Filtrado';
-import Footer from './Footer/Footer';
+
 
 function Routing() {
   return (
@@ -13,7 +13,7 @@ function Routing() {
       <Route path="/login" element={<Login />} />
       <Route path="/promo" element={<Promo />} />
       <Route path="/filtrado" element={<Filtrado />} />
-      <Route path="/footer" element={<Footer />} />
+     
     </Routes>
   );
 }

@@ -1,41 +1,36 @@
-import React, { useState, ChangeEvent, FormEvent } from 'react';
-import"./footer.css"
+import React from "react";
+import "./footer.css"
+import olas from '../../Assets/olas.mp4'
+import {FiSend} from "react-icons/fi"
 
+const Footer=()=>{
+  return(
+  <section className="footer">
+    <div className="videoDiv1">
+      <video src={olas} loop autoPlay muted></video>
+        
+        <div className="secContent container">
+          <div className="contactDiv flex">
+            <div className="text">
+              <small>Mantenerse en Contacto</small>
+              <h2>Viaja con Nosotros</h2>
+            </div>
+            <div className="inputDiv flex">
 
-const Footer = () => {
-  const [input, setInput] = useState('');
-  const [messages, setMessages] = useState([{ text: 'Hola, ¿en qué puedo ayudarte hoy?' }]);
+              <input type="text" placeholder="Enter Email Addres"/>
+              
+              <button className="btn flex" type="submit">
+                SEND<FiSend className="icon"/>
+              </button>
 
-  const handleInputChange = (event: ChangeEvent<HTMLInputElement>) => {
-    setInput(event.target.value);
-  };
+            </div>
 
-  const handleSubmit = (event: FormEvent<HTMLFormElement>) => {
-    event.preventDefault();
-    setMessages([...messages, { text: input }]);
-    setInput('');
-  };
-
-  return (
-    
-<div className="card5">
-    <div className="chat-bot">
-      <div className="messages">
-        {messages.map((message, index) => (
-          <div key={index} className="message">
-            {message.text}
           </div>
-        ))}
+
+        </div>
+
       </div>
-      <form onSubmit={handleSubmit}>
-        <input type="text" value={input} onChange={handleInputChange} />
-        <button type="submit">Enviar</button>
-      </form>
-    </div>
-    </div>
-  );
-
-};
-
-export default Footer;
-
+    </section>
+  )
+}
+export default Footer
