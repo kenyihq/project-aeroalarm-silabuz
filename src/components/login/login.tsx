@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { MDBInput } from "mdb-react-ui-kit";
+import appvideoUrl from "../../Assets/video.mp4"
 
 const initialState = {
   firstName: "",
@@ -20,9 +21,10 @@ const Login = () => {
     setFormValue({ ...formValue, [e.target.name]: e.target.value });
   };
   return (
-    <section className="vh-10 gradient-custom">
-      <div className="container py-4 h-100">
-        <div className="row d-flex justify-content-center align-items-center h-100">
+  <section className="home">
+    <video className="videoBg" src={appvideoUrl} muted autoPlay loop></video>
+      <div className="homeContent container">
+         <div className="row d-flex justify-content-center align-items-center h-50">
           <div className="col-12 col-md-8 col-lg-6 col-xl-5">
             <div
               className="card bg-dark text-white"
