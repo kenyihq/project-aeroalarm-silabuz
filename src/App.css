@@ -79,8 +79,8 @@ video{
 }
 
 img{
-  height: 30px;
-  
+  height: 100%; 
+  width: 100%;
 }
 
 input{
@@ -90,3 +90,8 @@ input{
 body{
   background: var(--bodyColor);
 }
+
+Link{
+  text-decoration: none;
+}
+
