@@ -15,7 +15,6 @@ const App = () => {
         
         <Navbar/>
         <Routing/>
-        <Footer/>
         
     </Router>
       

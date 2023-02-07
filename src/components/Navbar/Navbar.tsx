@@ -49,13 +49,11 @@ const Navbar: React.FC<NavbarProps> = () => {
               </Link>
               </li>
 
-              <li className="navItem">
-                <Link to="/footer">
-                  <a  className="navLink">
-                    Contactanos
-                  </a>
-                </Link>
-              </li>
+            <li className="navItem">
+                <a  className="navLink">
+                  Contactanos
+                </a>
+            </li>
 
             <li className="navItem">
               <a  className="navLink">

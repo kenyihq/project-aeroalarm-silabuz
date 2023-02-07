@@ -1,7 +1,7 @@
 # PROJECT UNIT 08
 
 #### 🏆 PARTICIPANTS
-  - Kenyi Hancco
+
   - Vanesa Huallpa
   - Bryam Vega
   - Fernando 
