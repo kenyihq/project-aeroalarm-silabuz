@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/project-aeroalarm-silabuz/static/css/main.a7baec27.css",
-    "main.js": "/project-aeroalarm-silabuz/static/js/main.08f67bdf.js",
+    "main.css": "/project-aeroalarm-silabuz/static/css/main.96332a22.css",
+    "main.js": "/project-aeroalarm-silabuz/static/js/main.c1916630.js",
     "static/media/video.mp4": "/project-aeroalarm-silabuz/static/media/video.f74267eb9a6f70c4448e.mp4",
-    "static/media/logo.png": "/project-aeroalarm-silabuz/static/media/logo.06e89c1bf72de2cdfa6b.png",
+    "static/media/logo.png": "/project-aeroalarm-silabuz/static/media/logo.e59b13e52f84548c7944.png",
     "index.html": "/project-aeroalarm-silabuz/index.html",
-    "main.a7baec27.css.map": "/project-aeroalarm-silabuz/static/css/main.a7baec27.css.map",
-    "main.08f67bdf.js.map": "/project-aeroalarm-silabuz/static/js/main.08f67bdf.js.map"
+    "main.96332a22.css.map": "/project-aeroalarm-silabuz/static/css/main.96332a22.css.map",
+    "main.c1916630.js.map": "/project-aeroalarm-silabuz/static/js/main.c1916630.js.map"
   },
   "entrypoints": [
-    "static/css/main.a7baec27.css",
-    "static/js/main.08f67bdf.js"
+    "static/css/main.96332a22.css",
+    "static/js/main.c1916630.js"
   ]
 }
