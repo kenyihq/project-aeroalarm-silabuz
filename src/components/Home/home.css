@@ -42,7 +42,6 @@
 }
 .home .homeContent {
   width: 100%;
-  height: -webkit-max-content;
   height: -moz-max-content;
   height: max-content;
   padding: 8rem 1.5rem 3rem;
@@ -99,9 +98,6 @@
 .home .homeContent .input input::-moz-placeholder {
   font-size: 13px;
 }
-.home .homeContent .input input:-ms-input-placeholder {
-  font-size: 13px;
-}
 .home .homeContent .input input::placeholder {
   font-size: 13px;
 }
@@ -113,7 +109,6 @@
 .home .homeContent .searchOptions {
   position: absolute;
   background: var(--gradientColor);
-  width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
   bottom: -0.7rem;

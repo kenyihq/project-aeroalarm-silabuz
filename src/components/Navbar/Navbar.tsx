@@ -50,9 +50,11 @@ const Navbar: React.FC<NavbarProps> = () => {
               </li>
 
             <li className="navItem">
+              <Link to="/contact">
                 <a  className="navLink">
                   Contactanos
                 </a>
+              </Link>
             </li>
 
             <li className="navItem">

@@ -36,7 +36,6 @@
   .header .navBar {
     position: absolute;
     background: var(--whiteColorDeam);
-    height: -webkit-max-content;
     height: -moz-max-content;
     height: max-content;
     width: 80%;
