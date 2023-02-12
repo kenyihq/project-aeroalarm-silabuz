@@ -26,6 +26,16 @@ const Login = () => {
   };
 
   const handleRegister = async () => {
+    if (!firstName || !lastName || !email || !password || !confirmPassword || !phone) {
+      Swal.fire({
+        title: 'Campos vacíos',
+        text: 'Por favor rellene todos los campos antes de continuar.',
+        icon: 'error',
+        confirmButtonText: 'Aceptar'
+      });
+      return;
+    }
+    
     if (password !== confirmPassword) {
       Swal.fire({
         title: 'Contraseñas no coinciden',
