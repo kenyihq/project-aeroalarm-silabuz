@@ -56,6 +56,38 @@ const Login = () => {
   
     } catch (error) {
       console.error(error);
+      Swal.fire({
+        title: 'Error en el registro',
+        text: 'Hubo un error al realizar el registro, por favor inténtelo de nuevo.',
+        icon: 'error',
+        confirmButtonText: 'Aceptar'
+      });
+    }
+  };
+
+  const handleLogin = async () => {
+    try {
+      const response = await axios.post("http://localhost:4000/api/v1/login", {
+        email,
+        password,
+      });
+      if (response.status === 200) {
+        navigate("/filtrado");
+        Swal.fire({
+          title: 'Inicio de Sesión Exitoso!',
+          text: 'Has iniciado sesión con éxito.',
+          icon: 'success',
+          confirmButtonText: 'Aceptar'
+        });
+      }
+    } catch (error) {
+      console.error(error);
+      Swal.fire({
+        title: 'Error al iniciar sesión',
+        text: 'Hubo un error al iniciar sesión, por favor verifica tus credenciales e intenta nuevamente',
+        icon: 'error',
+        confirmButtonText: 'Aceptar'
+      });
     }
   };
 
@@ -156,8 +188,9 @@ const Login = () => {
                     </button>
                   ) : (
                     <button
-                      className="btn btn-ontline-light btn-lg px-5"
                       type="button"
+                      className="btn btn-lg btn-primary btn-block mt-3 mb-3"
+                      onClick={handleLogin}
                     >
                       Login
                     </button>
