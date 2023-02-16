@@ -5,6 +5,7 @@ import Home from './Home/Home';
 import Promo from './Promo/Promo';
 import Filtrado from './Filtrado/Filtrado';
 import Contact from './Contact/Contact';
+import ResetPassword from './ResetPassword/ResetPassword';
 
 
 function Routing() {
@@ -15,6 +16,7 @@ function Routing() {
       <Route path="/promo" element={<Promo />} />
       <Route path="/filtrado" element={<Filtrado/>} />
       <Route path="/contact" element={<Contact/>} />
+      <Route path="/reset-password" element={<ResetPassword/>} />
 
      
     </Routes>
